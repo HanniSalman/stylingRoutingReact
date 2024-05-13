@@ -1,5 +1,4 @@
 
-import styled from "styled-components"
 import { BrowserRouter, Outlet, Route, Routes, useParams, Navigate, } from 'react-router-dom'
 import PageNotFound from "./page/PageNotFound"
 import AppLayout from "./layout/AppLayout"
