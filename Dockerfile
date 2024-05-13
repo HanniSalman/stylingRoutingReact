@@ -1,5 +1,5 @@
 # First stage: build the react app
-# FROM tiangolo/node-frontend:10 as build-stage
+# FROM tiangolo/node-frontend:10 as build-stage hej
 FROM node:18 as build-stage
 WORKDIR /app
 COPY package*.json /app/
